@@ -11,7 +11,8 @@ function MenuItem ({item, price}) {
 function App() {
   return (
     <>
-    <h1>Izzatul Husna's Menu</h1>
+    <h1>Sister Husna Fried Chicken</h1>
+    <MenuItem item={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
     </>
   )
 }
