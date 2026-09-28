@@ -1,3 +1,13 @@
+function MenuItem ({item, price}) {
+  return (
+    <>
+    <p>
+      <strong>{item} | </strong>{price} 
+    </p>
+    </>
+  )
+}
+
 function App() {
   return (
     <>
