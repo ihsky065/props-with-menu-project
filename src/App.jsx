@@ -1,8 +1,8 @@
-function MenuItem ({item, price}) {
+function MenuItem ({name, price}) {
   return (
     <>
     <p>
-      <strong>{item} | </strong>{price} 
+      <strong>{name} </strong>| {price} 
     </p>
     </>
   )
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <h1>Sister Husna Fried Chicken</h1>
-    <MenuItem item={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
+    <MenuItem name={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
     </>
   )
 }
