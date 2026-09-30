@@ -29,7 +29,7 @@ const friedChicken = (
 const desserts = (
   <>
     <MenuItem name={"1 piece Chocolate Cake"} price={'RM4.90'}/> 
-    <MenuItem name={'1 pcs Ice Cream'} price={'RM3.00'}/>
+    <MenuItem name={'1 pc Ice Cream'} price={'RM3.00'}/>
     </>
 );
 
@@ -38,6 +38,8 @@ function App() {
     <>
     <h1>Sister Husna Fried Chicken</h1>
     <Category title={'Fried Chicken'} foods={friedChicken}/> 
+    <Category title={'Desserts'} foods={desserts}/> 
+
     </>
   )
 }
