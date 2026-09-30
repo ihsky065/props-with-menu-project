@@ -22,7 +22,14 @@ function Category ({title, foods}) {
 const friedChicken = (
   <>
     <MenuItem name={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
-    <MenuItem name={'6 piece nugget'} price={'RM6.00'}/>
+    <MenuItem name={'6 piece Nugget'} price={'RM6.00'}/>
+    </>
+);
+
+const desserts = (
+  <>
+    <MenuItem name={"1 piece Chocolate Cake"} price={'RM4.90'}/> 
+    <MenuItem name={'1 pcs Ice Cream'} price={'RM3.00'}/>
     </>
 );
 
