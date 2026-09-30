@@ -19,9 +19,33 @@ function Category ({title, foods}) {
   )
 }
 
+// My attempt for NutritionalInfo props
+// function NutritionalInfo({calories, protein, carbs, fat}) {
+//   return (
+//     <>
+//     <p>Calories: {calories} kcal</p>
+//     <p>Protein: {protein} g</p>
+//     <p>Carbs: {carbs} g</p>
+//     <p>Fat: {fat} g</p>
+//     </>
+//   )
+// }
+
+function NutritionalInfo({nutritionalInfo}) {
+  return (
+    <>
+    <p>Calories: {nutritionalInfo?.calories} kcal</p>
+    <p>Protein: {nutritionalInfo?.protein} g</p>
+    <p>Carbs: {nutritionalInfo?.carbs} g</p>
+    <p>Fat: {nutritionalInfo?.fat} g</p>
+    </>
+  )
+}
+
 const friedChicken = (
   <>
     <MenuItem name={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
+    {/* <NutritionalInfo calories={'540'} protein={'31'} carbs={35} fat={29}/> My attempt for NutritionalInfo props */}
     <MenuItem name={'6 piece Nugget'} price={'RM6.00'}/>
     </>
 );
