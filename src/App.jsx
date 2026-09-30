@@ -60,9 +60,17 @@ const friedChicken = (
 
 const desserts = (
   <>
-    <MenuItem name={"1 piece Chocolate Cake"} price={'RM4.90'}/> 
-    <MenuItem name={'1 pc Ice Cream'} price={'RM3.00'}/>
-    </>
+    <MenuItem
+    name={"1 piece Chocolate Cake"}
+    price={'RM4.90'}
+    nutritionalInfo={{calories: 270, protein: 1, carbs: 43, fat: 10}}
+    /> 
+    <MenuItem
+    name={'1 pc Ice Cream'}
+    price={'RM3.00'}
+    nutritionalInfo={{calories: 207, protein: 2, carbs: 33, fat: 6}}
+    />
+  </>
 );
 
 function App() {
