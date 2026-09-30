@@ -19,6 +19,13 @@ function Category ({title, foods}) {
   )
 }
 
+const friedChicken = (
+  <>
+    <MenuItem name={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
+    <MenuItem name={'6 piece nugget'} price={'RM6.00'}/>
+    </>
+);
+
 function App() {
   return (
     <>
