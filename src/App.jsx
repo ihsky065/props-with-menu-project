@@ -45,9 +45,13 @@ function NutritionalInfo({nutritionalInfo}) {
 
 const friedChicken = (
   <>
-    <MenuItem name={"2pc Fried Chicken Set"} price={'RM10.00'}/> 
-    {/* <NutritionalInfo calories={'540'} protein={'31'} carbs={35} fat={29}/> My attempt for NutritionalInfo props */}
+    <MenuItem
+    name={"2pc Fried Chicken Set"}
+    price={'RM10.00'} 
+    nutritionalInfo={{calories: 540, protein: 31, carbs: 35, fat: 16}}
+    /> 
     <MenuItem name={'6 piece Nugget'} price={'RM6.00'}/>
+    <NutritionalInfo calories={270} protein={13} carbs={16} fat={16}/> 
     </>
 );
 
