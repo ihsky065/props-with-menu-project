@@ -1,8 +1,9 @@
-function MenuItem ({name, price}) {
+function MenuItem ({name, price, nutritionalInfo}) {
   return (
     <>
     <p>
       <strong>{name} </strong>| {price} 
+      <NutritionalInfo nutritionalInfo={nutritionalInfo}/>
     </p>
     </>
   )
